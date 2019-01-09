@@ -1,0 +1,53 @@
+<!--index.wxml-->
+ <!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <block>
+      <text> \n </text>
+      <text>在下面输入参数</text>
+      <text> \n </text>
+    </block>
+    <block wx:for="{{lists}}" wx:key="{{index}}">  
+      <input class='create-li' data-id="{{index}}" placeholder="新参数"       bindinput='bindKeyInput'></input>  
+      <text> \n </text>
+    </block>
+    </view>
+
+    <view class="buttoncontainer">
+    <button class='left' bindtap='addList'>添加参数</button>  
+    <button class='right' bindtap='delList'>删除参数</button>  
+    </view>
+
+    <view class="calculate">
+    <button size="default" type="primary" bindtap='calculate'>计算结果!</button>
+    </view>
+    
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>  -->
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+
+    <text> \n </text>
+    <text> \n </text>
+    <text class="title">你好，{{userInfo.nickName}}\n今天想蒜些什么？</text>
+    <text> \n </text>
+
+  </view>
+
+  <view class="buttoncontainer">
+  <button class="green" bindtap='jump'>开始计算!</button>
+  <navigator class="float" url="../../pages/instructions/instructions">不知道如何使用？</navigator>
+  </view>
+</view>

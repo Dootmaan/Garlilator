@@ -1,0 +1,28 @@
+<!--pages/calculator/calculator.wxml-->
+<view class="calculator">
+    <block>
+      <text> \n </text>
+      <text class="title">在下面输入参数</text>
+      <text> \n </text>
+    </block>
+    <block wx:for="{{lists}}" wx:key="index" data-index ='{{index}}'>  
+      <input class='create-li' type="text" data-id="{{index}}" placeholder="新参数"       bindinput='bindKeyInput'></input>
+      <text> \n </text>
+    </block>
+    </view>
+
+    <view class="buttoncontainer">
+    <button class='left' bindtap='addList'>添加参数</button>   
+    </view>
+
+    <view class="buttoncontainer"> 
+    <button class='right' bindtap='delList'>删除参数</button>  
+    </view>
+
+    <view class="calculate">
+    <button size="default" type="primary" bindtap='calculate'>计算结果!</button>
+    </view>
+    
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+</view>

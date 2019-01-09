@@ -1,0 +1,5 @@
+/* pages/instructions/instructions.wxss */
+.instructions {
+  text-align: center;
+  font-family: "微软雅黑";
+}

@@ -1,0 +1,25 @@
+<!--pages/instructions/instructions.wxml-->
+<view class="instructions">
+<text>\n</text>
+<text>\n</text>
+<text>这是一个没什么意义的计算器\n</text>
+<text>输入参数，你会得到一个结果\n</text>
+<text>不管输入什么，你都会得到一个结果\n</text>
+<text>你可以用它决定去不去上班\n</text>
+<text>小于0.5就去，大于0.5就不去\n</text>
+<text>你可以用它生成密码\n</text>
+<text>只要你确定自己能够记得住\n</text>
+<text>你可以把它当作一个什么都知道的人\n</text>
+<text>尽管有时候他的结果很荒谬\n</text>
+<text>尽管有时你并不赞同他的观点\n</text>
+<text>\n</text>
+<text>但这个计算器不会帮你做决定\n</text>
+<text>它只会让你知道你想要怎样的结果\n</text>
+<text>\n</text>
+<text>这个计算器\n</text>
+<text>献给想给所有问题一个答案的人\n</text>
+<text>\n</text>
+<text>\n</text>
+<text font-size="small">by Sam\n</text>
+</view>
+

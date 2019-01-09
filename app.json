@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calculator/calculator",
+    "pages/instructions/instructions"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#777",
+    "navigationBarTitleText": "Garlilator",
+    "navigationBarTextStyle": "white"
+  }
+}
